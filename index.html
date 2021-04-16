@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GuessGame</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container-all">
+        <div class="container">
+          <h1 class="main-tittle">
+            Please think of a number between 0 and 1.000.000 and i will guess it
+            in the minimun steps possible
+          </h1>
+          <button class="start">start</button>
+          <div class="end">
+            <h1 class="end-game"></h1>
+          </div>
+          <div class="started">
+            <h2 class="result-box">
+              is your number: <span class="result"> </span>
+            </h2>
+            <button class="guessed">yes</button>
+            <h2>if not....please select the correct one</h2>
+            <button class="btn-big">Bigger</button>
+            <button class="btn-low">Lower</button>
+          </div>
+        </div>
+        <h4 class="attempts">
+          Total attempts so far = <span class="totalattempts">0</span>
+        </h4>
+      </div>
+    </main>
+    <script src="./guessingGame.js"></script>
+  </body>
+</html>
