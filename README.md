@@ -17,3 +17,5 @@ const binarySearch2 = (arr, target) => {
 }
 
 
+PS: apologize front-end devs for the awfull CSS and html structure! :)
+
