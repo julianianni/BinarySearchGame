@@ -1,6 +1,6 @@
 # BinarySearchGame
-The idea is to guess a NUMBER a personas thinks using the binary search algorithm and find it in ass less attempts as possible 
-This is vanilla JS project
+The idea is to guess a NUMBER a person thinks using the binary search algorithm and find it in as few attempts as possible 
+This is a vanilla JS project
 
 # The basic binary search algorithm for finding a number in a sorted array with a target number
 const binarySearch2 = (arr, target) => {
